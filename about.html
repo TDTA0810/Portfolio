@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about Anh and the topics Anh is learning.">
+  <title>About | Anh's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">ANH<span>.</span></a>
+
+      <div class="header-actions">
+        <button class="menu-toggle" id="menu-toggle" type="button"
+          aria-controls="main-nav" aria-expanded="false">Menu</button>
+        <button class="theme-toggle" id="theme-toggle" type="button"
+          aria-pressed="false">Dark mode</button>
+      </div>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-intro section-space">
+      <div class="container narrow-container">
+        <p class="eyebrow">A little introduction</p>
+        <h1>About <span>me.</span></h1>
+        <p class="lead">I'm Anh, a student based in Vietnam. I enjoy learning new skills, exploring ideas, and improving through practice.</p>
+      </div>
+    </section>
+
+    <section class="section-space section-light" aria-labelledby="learning-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Topics I'm exploring</p>
+          <h2 id="learning-title">What I'm learning</h2>
+          <p>These are some of the web design topics I am currently learning and practicing.</p>
+        </div>
+
+        <div class="topic-grid">
+          <article class="topic-card">
+            <img src="assets/html.png" alt="Illustration representing HTML document structure">
+            <div class="topic-card-content">
+              <h3>HTML</h3>
+              <p>Structuring web pages with elements and semantic tags.</p>
+            </div>
+          </article>
+          <article class="topic-card">
+            <img src="assets/css.svg" alt="Illustration representing CSS styling">
+            <div class="topic-card-content">
+              <h3>CSS</h3>
+              <p>Styling content with colors, spacing, and layouts.</p>
+            </div>
+          </article>
+          <article class="topic-card">
+            <img src="assets/javascript.svg" alt="Illustration representing JavaScript code">
+            <div class="topic-card-content">
+              <h3>JavaScript</h3>
+              <p>Adding simple interactions to a web page.</p>
+            </div>
+          </article>
+          <article class="topic-card">
+            <img src="assets/responsive.jpg" alt="Illustration showing desktop, tablet, and phone screen sizes">
+            <div class="topic-card-content">
+              <h3>Responsive Design</h3>
+              <p>Making a website fit different screen sizes.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space">
+      <div class="container narrow-container">
+        <p class="eyebrow">My approach</p>
+        <h2>Learning one step at a time.</h2>
+        <p>I believe that learning takes patience and practice. I try to understand the basics first, apply what I learn in small exercises, and improve my work through feedback.</p>
+        <p>This portfolio is part of that learning process. I hope to keep adding to it as I gain more experience.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Anh. Personal portfolio.</p>
+      <a href="#main-content">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
